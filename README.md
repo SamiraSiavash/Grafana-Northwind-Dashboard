@@ -9,8 +9,12 @@ A fully interactive **Grafana dashboard** built using the classic **Northwind** 
 ```
 Grafana-Northwind-Dashboard/
 │── dashboard/
-│    └── Northwind-Sample.json     
-│── images/                        
+│    └── Northwind-Sample.json
+│── data-source/
+│    └── Northwind.sql    
+│── images/
+│    └── Northwind1.png
+│    └── Northwind2.png                   
 │── README.md
 ```
 
@@ -31,8 +35,7 @@ Grafana-Northwind-Dashboard/
 * **Grafana** (Dashboard panels & visualization)
 * **Northwind Dataset**
 * **JSON** (Dashboard export)
-* *(Optional)* InfluxDB / PostgreSQL / CSV (depending on your setup)
-
+* **PostgreSQL**
 ---
 
 ## 📥 How to Use
@@ -51,7 +54,8 @@ git clone https://github.com/SamiraSiavash/Grafana-Northwind-Dashboard.git
 
    * `dashboard/Northwind-Sample.json`
 4. Select your data source
-5. Click **Import**
+   * `data-source/Northwind.sql`
+6. Click **Import**
 
 ---
 
@@ -59,14 +63,6 @@ git clone https://github.com/SamiraSiavash/Grafana-Northwind-Dashboard.git
 <img width="1919" height="925" alt="Northwind1" src="https://github.com/user-attachments/assets/9e00e8a6-58c6-45ec-8584-79f69a65636a" />
 
 <img width="1919" height="925" alt="Northwind2" src="https://github.com/user-attachments/assets/90770b5b-abfd-4eb4-ae1c-29911ee2c838" />
-
----
-
-## 📌 Planned Enhancements
-
-* Add full dataset reference
-* Add datasource setup instructions
-* Add more panels (e.g., category-level metrics)
 
 ---
 
