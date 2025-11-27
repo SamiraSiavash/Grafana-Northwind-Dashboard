@@ -60,9 +60,22 @@ git clone https://github.com/SamiraSiavash/Grafana-Northwind-Dashboard.git
 ---
 
 ## 🖼 Screenshots
+```markdown
+![Dashboard Overview](images/Northwind1.png)
+```
 <img width="1919" height="925" alt="Northwind1" src="https://github.com/user-attachments/assets/9e00e8a6-58c6-45ec-8584-79f69a65636a" />
 
+```markdown
+![Dashboard Overview](images/Northwind1.png)
+```
 <img width="1919" height="925" alt="Northwind2" src="https://github.com/user-attachments/assets/90770b5b-abfd-4eb4-ae1c-29911ee2c838" />
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+See `LICENSE.md` for more details.
 
 ---
 
